@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="544c9b85-b030-42b5-b8d1-adb35a9af00a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse-dashboard-config.json" afterPath="$PROJECT_DIR$/parse-dashboard-config.json" />
     </list>
     <ignored path="parse-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -103,8 +102,8 @@
         <option value="$PROJECT_DIR$/public/assets/css/dashboard.css" />
         <option value="$PROJECT_DIR$/public/visitorDashboard.ejs" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/parse-dashboard-config.json" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -116,7 +115,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
+    <option name="x" value="263" />
     <option name="y" value="28" />
     <option name="width" value="1037" />
     <option name="height" value="797" />
@@ -366,15 +365,15 @@
       <workItem from="1464139277185" duration="11106000" />
       <workItem from="1464934738458" duration="5582000" />
       <workItem from="1465024649071" duration="31948000" />
-      <workItem from="1465261959313" duration="2600000" />
+      <workItem from="1465261959313" duration="4008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51236000" />
+    <option name="totallyTimeSpent" value="52644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="28" width="1037" height="797" extended-state="0" />
+    <frame x="263" y="28" width="1037" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29893926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -724,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
