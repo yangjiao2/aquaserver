@@ -2,7 +2,7 @@
   "apps": [{
 //    http://localhost:1337/parse
 //    http://aquascale.herokuapp.com/parse
-    "serverURL": "http://aquascale.herokuapp.com/parse",
+    "serverURL": "http://localhost:1337/parse",
     "appId": "aquascale",
     "masterKey": "237",
     "appName": "aquascale",
