@@ -34,7 +34,7 @@ var api = new ParseServer({
 var dashboard = new ParseDashboard({
   "apps": [
     {
-      "serverURL": "http://localhost:1337/parse",
+      "serverURL": "https://aquascale.herokuapp.com/parse",
       "appId": "aquascale",
       "masterKey": "237",
       "appName": "aquascale"

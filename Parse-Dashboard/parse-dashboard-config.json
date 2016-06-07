@@ -1,9 +1,9 @@
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
+    "serverURL": "https://aquascale.herokuapp.com/",
+    "appId": "aquascale",
+    "masterKey": "237",
+    "appName": "aquascale",
     "iconName": ""
   }],
   "iconsFolder": "icons"
