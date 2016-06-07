@@ -25,7 +25,7 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'aquascale',
   masterKey: process.env.MASTER_KEY || '237', //Add your master key here. Keep it secret!
-  serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
+  serverURL: process.env.SERVER_URL || 'http://aquascale.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
@@ -37,7 +37,7 @@ var dashboard = new ParseDashboard({
       "serverURL": "http://aquascale.herokuapp.com/parse",
       "appId": "aquascale",
       "masterKey": "237",
-      "appName": "AquaScale"
+      "appName": "aquascale"
     }
   ],
   "users": [

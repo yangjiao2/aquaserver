@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "serverURL": "aquascale.heroku.com",
+    "serverURL": "aquascale.heroku.com/parse",
     "appId": "aquascale",
     "masterKey": "237",
     "appName": "aquascale",
