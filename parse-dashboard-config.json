@@ -2,7 +2,7 @@
   "apps": [{
     "serverURL": "aquascale.heroku.com",
     "appId": "aquascale",
-    "masterKey": "",
+    "masterKey": "237",
     "appName": "aquascale",
     "iconName": ""
   }],

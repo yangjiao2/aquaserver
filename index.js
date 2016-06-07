@@ -17,9 +17,10 @@ var app = express();
 if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');
 }
-
+var databaseUri = "mongodb://heroku_9flph9xq:t0qe1l9ga4ut0582at9k0khhcd@ds025263.mlab.com:25263/heroku_9flph9xq";
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
+
+  databaseURI: "mongodb://heroku_9flph9xq:t0qe1l9ga4ut0582at9k0khhcd@ds025263.mlab.com:25263/heroku_9flph9xq" || 'mongodb://localhost:27017/dev',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'aquascale',
   masterKey: process.env.MASTER_KEY || '237', //Add your master key here. Keep it secret!
