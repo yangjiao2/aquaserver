@@ -35,8 +35,8 @@ var api = new ParseServer({
 
 var pushConfig = {};
 if (process.env.GCM_SENDER_ID && process.env.GCM_API_KEY) {
-  pushConfig['android'] = { senderId: process.env.GCM_SENDER_ID || '',
-    apiKey: process.env.GCM_API_KEY || ''};
+  pushConfig['android'] = { senderId: process.env.GCM_SENDER_ID || '453646379048',
+    apiKey: process.env.GCM_API_KEY || 'AIzaSyDuGULoBLLvbdCJIFHnUG_6zfSjc6Q6yTo'};
 }
 
 
