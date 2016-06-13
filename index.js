@@ -28,8 +28,17 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
-  }
+  },
+  push: pushConfig
 });
+
+
+var pushConfig = {};
+if (process.env.GCM_SENDER_ID && process.env.GCM_API_KEY) {
+  pushConfig['android'] = { senderId: process.env.GCM_SENDER_ID || '',
+    apiKey: process.env.GCM_API_KEY || ''};
+}
+
 
 var dashboard = new ParseDashboard({
   "apps": [
